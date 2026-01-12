@@ -1,0 +1,29 @@
+touch .gitignore
+```
+
+Then open `.gitignore` and paste this:
+```
+# Compiled class files
+*.class
+bin/
+out/
+target/
+
+# Package Files
+*.jar
+*.war
+*.ear
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Database credentials (we'll create example file)
+DatabaseConnection.java
+
+# Log files
+*.log
